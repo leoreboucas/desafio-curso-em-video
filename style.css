@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&family=Ubuntu:wght@300;400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 @font-face {
     font-family: 'Róbotica';
     src: url(fontes/idroid.otf);
@@ -24,6 +26,7 @@ header {
 }
 #titleh1 {
     font-weight: 700;
+    font-family: 'Bebas Neue', cursive;
 }
 .nav-list {
     position: absolute;
@@ -32,12 +35,19 @@ header {
 .nav-list ul li{
     display: inline-block;
     font-weight: 700;
-    padding: 3px 3px;
-    margin: 0px 10px;
+    border-radius: 3px;
+    padding: 4px 12px;
+}
+.nav-list ul li:hover {
+    background-color: #289e5e;
 }
 .nav-list ul li a{
     text-decoration: none;
     color: #fff;
+    padding: 4px 12px;
+}
+.nav-list ul li a:hover {
+    color: #156e37;
 }
 main {
     background-color: #84e1ad;
